@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+body, table, form, input, td, th, p, textarea, select {
+    font-family: Arial, "Lucida Grande";
+    font-size: 52;
+}
+
+body {
+    background-size: 100% 100%;
+    background-image: url("http://upload.wikimedia.org/wikipedia/commons/0/08/Grilling.jpg");
+}
+
+table.pane{
+    background-color: black;
+    opacity: 0.6;
+}
+
+table{
+    opacity: 0.8;
+}
+
+img.icon-red{
+    content: url("http://img3.wikia.nocookie.net/__cb20120210074647/mspaintadventures/images/b/b5/Blood.png");
+}
+
+img.icon-blue{
+    content: url("http://www.iconsdb.com/icons/preview/green/batman-23-xxl.png");
+}
+
+img#jenkins-name-icon{
+    content: "";
+    color: black;
+    display: none;
+}
+
+div#header{
+    background-color: black;
+}
+
+div.top-sticker-inner{
+    background-color: black;
+    color: white;
+}
+
+img#jenkins-head-icon{
+    content: url("http://www.charbroil.com/skin/frontend/enterprise/charbroil/images/Char-Broil-Logo2.png");
+    width: 120px;
+    height: 60px;
+}
